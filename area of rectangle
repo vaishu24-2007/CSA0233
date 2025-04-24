@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    float length=5,width=3,area;
+    printf("Enter the length of the rectangle:");
+    printf("%d",length);
+    printf("enter the width of the rectangle:");
+    printf("%d",width);
+    area=length*width;
+    printf("The area of the rectangle is:%d\n",area);
+
+    return 0;
+}
